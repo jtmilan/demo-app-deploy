@@ -3,3 +3,7 @@ kind: Kustomization
 
 resources:
 - ../../base
+images:
+- name: ghcr.io/argocon2022-workshop/demo-app
+  newName: ghcr.io/jtmilan/demo-app
+  newTag: fea5be613f4aa75640f39de49dfcc872aaf4cb81
